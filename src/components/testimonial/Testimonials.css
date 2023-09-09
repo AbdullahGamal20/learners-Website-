@@ -1,0 +1,41 @@
+.testimonial__content h2{
+  font-weight: 600;
+  
+}
+@media screen and (max-width:991px) {
+  .main{
+    width: 100%;
+  }
+  .head{
+    position: absolute;
+    top: -60px;
+    width: 250px;
+    left: -30px;
+    text-align: start;
+    margin: 0 auto;
+  }
+  .testimonial__wrapper{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .testimonial__image{
+    width: 600px !important;
+    display: none;
+  }
+  
+  .testimonial__image img{
+    max-width: 600px !important;
+  }
+  
+  .testimonial__content{
+    position: absolute;
+    width: 100%;
+    
+    /* overflow-x: hidden; */
+    
+  }
+
+}

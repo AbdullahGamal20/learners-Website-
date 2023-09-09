@@ -1,0 +1,45 @@
+.footer{
+  background-color: rgba(226,248,248 , 0.664);
+}
+
+.follows span{
+  margin-left: 15px;
+}
+.follows span a{
+  text-decoration: none;
+}
+.list{
+  text-align: start;
+  margin-left: 60px;
+}
+
+.list a{
+  text-decoration: none;
+  color: #0a2b1e;
+  
+}
+
+
+.list .link__item{
+  background: transparent;
+}
+
+@media screen and (max-width:991px) {
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+  .follows{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .fol{
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  .list{
+    margin-top: 25px !important;
+  }
+}

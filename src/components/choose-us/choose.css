@@ -1,0 +1,46 @@
+.choose__image img{
+  border-radius: 15px;
+}
+.choose__image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 777;
+
+}
+.play__icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background: #FFF;
+  z-index: 7777;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.play__icon i{
+  color: #17bf9e;
+  font-size: 2rem;
+
+}
+
+.choose__content{
+  padding-right: 50px ;
+}
+
+@media screen and (max-width:991px) {
+  .choose__content{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+}
